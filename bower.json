@@ -1,0 +1,31 @@
+{
+  "name": "grunt_test",
+  "description": "This repo is for self study of grunt",
+  "main": "index.js",
+  "authors": [
+    "titi"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Grunt"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.1.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css"
+      ]
+    }
+  }
+}

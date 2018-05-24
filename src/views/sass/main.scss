@@ -1,0 +1,12 @@
+.sample {
+  &__text {
+     border-radius: 3px;
+    .red {
+      color: red;
+    }
+  }
+}
+
+::placeholder {
+  color: gray;
+}
